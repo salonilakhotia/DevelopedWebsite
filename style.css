@@ -1,0 +1,120 @@
+body{	
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: peachpuff;
+}
+
+#navbar{
+    display: flex;
+    margin-top: 10px;
+}
+
+#navbar ul{
+    padding :  0    
+}
+
+#navbar li{
+    display: inline;
+}
+
+.site_logo {    
+    float: left;
+    color:purple;
+    padding-left: 100px;
+    flex: 1;
+   
+}
+
+.menu_option {
+    margin-left: 130px;
+    flex:9;
+    font-size:10px;
+    font-weight: lighter;
+    font-family: auto;
+    justify-content: right;
+       
+}
+
+.menu_option li {
+    list-style-type: none;
+    
+  }
+.menu_option a{
+    font-weight: bold;
+    color: purple;
+    font-size: 15px;
+    font-style: normal;
+    position: relative;
+    text-decoration: none;
+    padding: 0px 13px;
+}
+
+.hire{
+    flex:3;
+    border: none;
+    margin-right:10px;
+    padding: 5px auto;
+    text-align: center;
+    border-radius:40px;
+    background: purple;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    height: 50px;
+}
+
+.section2{
+    background-color: peachpuff;
+   padding-left: 100px;
+    display: flex;
+}
+
+.text2{
+    flex:1;
+    justify-content: center;
+}
+
+.part1{
+    background-color: peachpuff;
+}
+.part{
+ 
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+.part1_write{
+    padding-top: 8%;
+    text-align: center;
+    flex: 1;
+    font-family:  'Kaushan Script' ;
+    
+}
+
+.part1_image img{
+    padding-left: 5%;
+    padding-top: 5%;
+    flex: 3;
+    height: 500px;
+    width: 750px;
+   
+}
+
+.part2_image img{
+    padding-top: 5%;
+    flex: 3;
+    height: 500px;
+    width: 700px;
+   
+}
+
+.part2_write{
+    padding-top: 8%;
+    text-align: center;
+    flex: 1;
+    font-family: 'Averia Gruesa Libre';    
+}
